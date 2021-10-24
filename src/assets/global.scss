@@ -1,0 +1,61 @@
+@import "index";
+
+$black: #282D30;
+$white-border: #DADADA;
+$red: #C3002F;
+$label: #8B8B8B;
+$white-snake: #DADADA;
+$list-font: #323232;
+$background-list: #F5F6F6;
+$padding: 10%;
+$padding-tabmob: 10px;
+
+
+input:active, input:hover, input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+button:active, button:focus {
+  outline: none;
+  margin: 0;
+  border: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  height: max-content;
+  box-sizing: border-box;
+  width: 958px;
+  margin: auto;
+
+  @include respond-to(tabmob) {
+    width: 100%;
+    padding: 0 $padding-tabmob 0 $padding-tabmob;
+  }
+
+  @include respond-to(phone) {
+    padding: 0;
+  }
+}
+

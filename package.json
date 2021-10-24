@@ -1,0 +1,48 @@
+{
+  "name": "newkind-vue",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Zababurin Sergey",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "start": "node server.mjs",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mitt": "^3.0.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "express-enqueue": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "typescript": "~4.1.5"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
