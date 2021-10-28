@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <div class="footer__info">
-      © 2020 CAPTAIN QUACK<br>
-      Десница тысячелетия и моллюск! </div>
+      © 2020 CAPTAIN QUACK
+    </div>
   </div>
 </template>
 
